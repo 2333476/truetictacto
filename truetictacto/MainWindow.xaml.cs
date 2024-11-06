@@ -25,7 +25,9 @@ namespace truetictacto
             InitializeComponent();
         }
 
-        private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
+       
+
+        private void ImgX_MouseDown(object sender, MouseButtonEventArgs e)
         {
             MainWindow mainWindowr = new MainWindow();
             mainWindowr.Show();
