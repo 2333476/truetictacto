@@ -5,10 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:truetictacto"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid RenderTransformOrigin="0.474,0.542">
-       
-
-
+        Title="MainWindow" Height="500" Width="375">
+    <Grid RenderTransformOrigin="0.474,0.542" Margin="0,0,1,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="125"></ColumnDefinition>
+            <ColumnDefinition Width="125"></ColumnDefinition>
+            <ColumnDefinition Width="125"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="125">
+            </RowDefinition>
+            <RowDefinition Height="125"></RowDefinition>
+            <RowDefinition Height="125"></RowDefinition>
+            <RowDefinition Height="125"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image x:Name="imgBackground" Source="image_for_tictacto/Grid.png" 
+               Grid.ColumnSpan="3"
+               Grid.RowSpan="3"></Image>
+        <Image x:Name="blanc1" source="image_for_tictacto/blancImage.png" 
+               Grid.Row="0"
+               Grid.Column="0"></Image>
     </Grid>
 </Window>
