@@ -111,7 +111,7 @@
     <Resource Include="image_for_tictacto\X.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="image_for_tictacto\blancImage.png" />
+    <Resource Include="image_for_tictacto\blank_image.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
