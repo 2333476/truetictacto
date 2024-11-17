@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace truetictacto
 {
-    internal enum Winner
+    internal enum PlayerEnum
     {
-        NONE = 0,
-        X = 1,
-        O = 2,
+        NONE,
+        X,
+        O,
     }
 }
