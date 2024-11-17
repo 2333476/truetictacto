@@ -25,8 +25,17 @@ namespace truetictacto
             InitializeComponent();
         }
 
-       
-
-       
+        private void stkInfo_Loaded(object sender, RoutedEventArgs e)
+        {
+            var Label1 = new Label();
+            var Label2 = new Label();
+            var Label3 = new Label();
+            Label1.Content = "Games played:";
+            Label2.Content = "Win ratio:";
+            Label3.Content = "turn: player ";
+            stkInfo.Children.Add(Label1);
+            stkInfo.Children.Add(Label2);
+            stkInfo.Children.Add(Label3);
+        }
     }
 }
