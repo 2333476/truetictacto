@@ -111,9 +111,7 @@ namespace truetictacto
 
         private void stkInfo_Loaded(object sender, RoutedEventArgs e)
         {
-            var Label2 = new Label();
-            Label2.Content = "Win ratio:";
-            stkInfo.Children.Add(Label2);
+           
             GamePlayedLabel();
             TurnLabel();
 
