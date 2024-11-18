@@ -107,8 +107,12 @@
   <ItemGroup>
     <Resource Include="image_for_tictacto\Grid.png" />
     <Resource Include="image_for_tictacto\tic-tac-toe_1181538.png" />
-    <Resource Include="image_for_tictacto\Cercle.png" />
-    <Resource Include="image_for_tictacto\X.png" />
+    <Resource Include="image_for_tictacto\Cercle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="image_for_tictacto\X.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="image_for_tictacto\blank_image.png" />

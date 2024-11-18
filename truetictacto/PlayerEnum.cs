@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace truetictacto
 {
-    internal enum PlayerEnum
+    public enum PlayerEnum
     {
         NONE,
         X,

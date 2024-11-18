@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="Startup" Height="450" Width="800">
     <Grid>
-        <Image x:Name="ImgO" Source="\image_for_tictacto\Cercle.png" HorizontalAlignment="Left" Height="108" Margin="246,205,0,0" VerticalAlignment="Top" Width="111" />
-        <Image x:Name="ImgX" Source="\image_for_tictacto\X.png"  HorizontalAlignment="Left" Height="116" Margin="413,197,0,0" VerticalAlignment="Top" Width="125" MouseDown="ImgX_MouseDown" />
+        <Image x:Name="ImgO" Source="\image_for_tictacto\Cercle.png" HorizontalAlignment="Left" Height="108" Margin="246,205,0,0" VerticalAlignment="Top" Width="111" MouseDown="Img_MouseDown" />
+        <Image x:Name="ImgX" Source="\image_for_tictacto\X.png"  HorizontalAlignment="Left" Height="116" Margin="413,197,0,0" VerticalAlignment="Top" Width="125" MouseDown="Img_MouseDown" />
         <Label x:Name="lblTitle" Content="choose either X or O (X usually start first)" HorizontalAlignment="Left" Margin="246,132,0,0" VerticalAlignment="Top" Width="234"/>
     </Grid>
 </Window>
